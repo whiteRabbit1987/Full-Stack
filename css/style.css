@@ -1,0 +1,81 @@
+body {
+    background: rgb(224, 236, 240);
+}
+
+.social-media {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-instagram {
+    color: rgb(115, 19, 19);
+}
+
+.fa-twitter {
+    color: rgb(111, 195, 223);
+}
+
+.social-media ul li {
+    list-style: none;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.side-strip {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -4em;
+    transform: rotate(90deg);
+    color: #0e0e0e;
+    letter-spacing: 4px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 340px;
+    margin-bottom: 100px;
+}
+
+button {
+    display: flex;
+    margin: 15px auto 15px auto;
+    border: none;
+    padding: 15px 32px;
+    background: lightblue;
+}
+
+button:hover {
+    display: flex;
+    margin: 15px auto 15px auto;
+    border: none;
+    padding: 15px 32px;
+    background: rgb(52, 95, 109);
+    color: rgb(255, 235, 235);
+}
+
+.bottom-bar {
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+.row {
+    padding: 2.6em 2.6em 2em 2.6em;
+    background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(59, 74, 32, 0.5), rgba(8, 9, 9, 0.5));
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.bottom-bar p {
+    font-size: 14px;
+    font-weight: lighter;
+}
